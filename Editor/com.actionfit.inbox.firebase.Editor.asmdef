@@ -1,0 +1,16 @@
+{
+  "name": "com.actionfit.inbox.firebase.Editor",
+  "rootNamespace": "ActionFit.Inbox.Firebase.Editor",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

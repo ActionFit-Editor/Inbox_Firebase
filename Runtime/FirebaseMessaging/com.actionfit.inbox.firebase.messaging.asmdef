@@ -1,0 +1,27 @@
+{
+  "name": "com.actionfit.inbox.firebase.messaging",
+  "rootNamespace": "ActionFit.Inbox.Firebase.Messaging",
+  "references": [
+    "com.actionfit.inbox.firebase"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Firebase.App.dll",
+    "Firebase.Messaging.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "ACTIONFIT_FIREBASE_MESSAGING_12_10_1"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.google.firebase.messaging",
+      "expression": "[12.10.1]",
+      "define": "ACTIONFIT_FIREBASE_MESSAGING_12_10_1"
+    }
+  ],
+  "noEngineReferences": true
+}

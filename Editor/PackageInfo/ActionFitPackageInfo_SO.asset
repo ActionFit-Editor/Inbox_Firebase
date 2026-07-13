@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5ab7e2b67b436db878fd7b023d8616, type: 3}
+  m_Name: ActionFitPackageInfo_SO
+  m_EditorClassIdentifier: 
+  _packageId: com.actionfit.inbox.firebase
+  _displayName: ActionFit Inbox Firebase
+  _repoName: Inbox_Firebase
+  _repositoryVisibility: 0
+  _owner: "\uC1A1\uC81C\uC6B0"
+  _status: verified
+  _description: "Firebase RTDB \uC6B0\uD3B8\uD568 \uC870\uD68C\xB7\uC218\uB839 \uD655\uC778\uACFC
+    FCM \uCE90\uC2DC \uBB34\uD6A8\uD654\uB97C \uBC94\uC6A9 Inbox \uACC4\uC57D\uC5D0
+    \uC5F0\uACB0\uD558\uB294 SDK \uACA9\uB9AC \uC5B4\uB311\uD130 \uD328\uD0A4\uC9C0\uC785\uB2C8\uB2E4."
+  _releaseNote: "- `FirebaseInboxBackend`\uAC00 \uAE30\uBCF8 `rewards/{userId}/{messageId}`
+    \uACBD\uB85C\uC758 \uBAA9\uB85D\xB7\uB2E8\uAC74 \uC870\uD68C\uC640 \uBA71\uB4F1
+    \uC0AD\uC81C \uD655\uC778\uC744 \uC81C\uACF5\uD574 `com.actionfit.inbox`\uB97C
+    Firebase RTDB\uC5D0 \uC5F0\uACB0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n- \uAE30\uC874
+    `itemType`/`itemName`/`qty` \uB2E8\uC77C \uBCF4\uC0C1\uACFC \uC2E0\uADDC `attachments`
+    \uBCF5\uC218 \uBCF4\uC0C1 \uD615\uC2DD\uC744 \uD568\uAED8 \uBCC0\uD658\uD574
+    \uAE30\uC874 \uC6B4\uC601 \uBA54\uC2DC\uC9C0\uB97C \uBCC0\uACBD\uD558\uC9C0 \uC54A\uACE0
+    \uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n- timeout\xB7\uB124\uD2B8\uC6CC\uD06C\xB7\uAD8C\uD55C\xB7malformed
+    \uC751\uB2F5\uC744 \uC7AC\uC2DC\uB3C4 \uAC00\uB2A5 \uC5EC\uBD80\uAC00 \uD3EC\uD568\uB41C
+    \uC548\uC804\uD55C \uC624\uB958\uB85C \uBCC0\uD658\uD558\uACE0 \uC0AC\uC6A9\uC790
+    ID, \uBA54\uC2DC\uC9C0 \uC6D0\uBB38, \uBCF4\uC0C1 payload\uB97C \uB178\uCD9C\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4.\n- `ActionFitConnectivityAdapter`\uC640 FCM topic/data
+    invalidation binding\uC73C\uB85C offline \uBCF5\uAD6C \uD6C4 \uBA85\uC2DC\uC801
+    \uC7AC\uC870\uD68C\uC640 \uCE90\uC2DC \uBB34\uD6A8\uD654\uB97C \uD504\uB85C\uC81D\uD2B8
+    UI \uACB0\uD569 \uC5C6\uC774 \uAD6C\uC131\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n-
+    Caution: Firebase Database/Messaging SDK, RTDB rules, \uC6B4\uC601 \uB370\uC774\uD130\uC640
+    \uC54C\uB9BC \uAD8C\uD55C\uC740 \uC790\uB3D9 \uC124\uCE58\xB7\uBCC0\uACBD\uD558\uC9C0
+    \uC54A\uC73C\uBA70 consuming project\uAC00 \uBCC4\uB3C4\uB85C \uC900\uBE44\uD574\uC57C
+    \uD569\uB2C8\uB2E4."
+  _dependenciesOverride: 

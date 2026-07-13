@@ -1,0 +1,37 @@
+{
+  "name": "com.actionfit.inbox.firebase.Sample",
+  "rootNamespace": "ActionFit.Inbox.Firebase.Samples",
+  "references": [
+    "com.actionfit.inbox",
+    "com.actionfit.inbox.firebase",
+    "com.actionfit.inbox.firebase.database",
+    "com.actionfit.inbox.firebase.messaging"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Firebase.App.dll",
+    "Firebase.Database.dll",
+    "Firebase.Messaging.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "ACTIONFIT_FIREBASE_DATABASE_12_10_1",
+    "ACTIONFIT_FIREBASE_MESSAGING_12_10_1"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.google.firebase.database",
+      "expression": "[12.10.1]",
+      "define": "ACTIONFIT_FIREBASE_DATABASE_12_10_1"
+    },
+    {
+      "name": "com.google.firebase.messaging",
+      "expression": "[12.10.1]",
+      "define": "ACTIONFIT_FIREBASE_MESSAGING_12_10_1"
+    }
+  ],
+  "noEngineReferences": true
+}

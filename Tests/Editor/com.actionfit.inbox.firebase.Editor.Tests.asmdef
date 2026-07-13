@@ -1,0 +1,25 @@
+{
+  "name": "com.actionfit.inbox.firebase.Editor.Tests",
+  "rootNamespace": "ActionFit.Inbox.Firebase.Tests",
+  "references": [
+    "com.actionfit.inbox.firebase",
+    "com.actionfit.inbox",
+    "com.actionfit.connectivity"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "com.actionfit.inbox.firebase.database",
+  "rootNamespace": "ActionFit.Inbox.Firebase.Database",
+  "references": [
+    "com.actionfit.inbox.firebase"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Firebase.App.dll",
+    "Firebase.Database.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "ACTIONFIT_FIREBASE_DATABASE_12_10_1"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.google.firebase.database",
+      "expression": "[12.10.1]",
+      "define": "ACTIONFIT_FIREBASE_DATABASE_12_10_1"
+    }
+  ],
+  "noEngineReferences": true
+}

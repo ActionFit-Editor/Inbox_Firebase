@@ -1,0 +1,17 @@
+{
+  "name": "com.actionfit.inbox.firebase",
+  "rootNamespace": "ActionFit.Inbox.Firebase",
+  "references": [
+    "com.actionfit.inbox",
+    "com.actionfit.connectivity"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}
