@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inbox Firebase Help"
+  short_description: "Explain Firebase inbox adapter boundaries"
+  default_prompt: "Use $inbox-firebase-help to explain Firebase inbox skills, SDK isolation, schema, errors, and invalidation boundaries."

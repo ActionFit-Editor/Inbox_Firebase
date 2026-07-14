@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Inbox Firebase"
+  short_description: "Audit Firebase inbox isolation without access"
+  default_prompt: "Use $inbox-firebase-audit to audit Firebase inbox SDK isolation, failure mapping, paths, and cache invalidation."

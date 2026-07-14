@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "skillPrefix": "inbox-firebase",
+  "helpSkill": "inbox-firebase-help",
+  "skills": [
+    {
+      "name": "inbox-firebase-help",
+      "agents": [
+        "codex",
+        "claude"
+      ],
+      "includeShared": false,
+      "access": "read-only"
+    },
+    {
+      "name": "inbox-firebase-audit",
+      "agents": [
+        "codex",
+        "claude"
+      ],
+      "includeShared": false,
+      "access": "read-only"
+    }
+  ]
+}

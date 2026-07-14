@@ -6,8 +6,8 @@ This file ships with the UPM package so an AI assistant can preserve the Firebas
 
 - Package ID: `com.actionfit.inbox.firebase`
 - Display name: ActionFit Inbox Firebase
-- Repository: `https://github.com/ActionFit-Editor/Inbox_Firebase.git`
-- Current package version at generation time: `1.0.0`
+- Repository: `https://github.com/ActionFitGames/Inbox_Firebase.git`
+- Current package version at generation time: `1.0.2`
 - Unity version: `6000.2`
 - Runtime dependencies: `com.actionfit.inbox` 1.0.0 and `com.actionfit.connectivity` 1.0.0
 - Optional SDK packages: validated `com.google.firebase.database` and `com.google.firebase.messaging` 12.10.1 packages
@@ -17,6 +17,12 @@ This file ships with the UPM package so an AI assistant can preserve the Firebas
 ActionFit Inbox Firebase implements the `IInboxBackend` boundary for Firebase RTDB, converts legacy and multi-attachment reward nodes into backend-neutral inbox models, maps failures without exposing sensitive data, adapts ActionFit Connectivity, and converts FCM topic/data messages into cache invalidation requests.
 
 It does not own project reward mutation, receipt persistence, UI, identity generation, Firebase Auth, RTDB rules, production data migration, notification permission UI, or server transaction policy.
+
+## Agent Skills
+
+- `Skills~/manifest.json` registers schema v2 `inbox-firebase-help` and `inbox-firebase-audit` for Codex and Claude with read-only access.
+- Help reads the generated `PACKAGE_SKILLS.md` inventory before explaining SDK isolation, RTDB paths and schema, failure mapping, connectivity, invalidation, tests, and project-owned boundaries.
+- Audit remains offline and source-based. It must not inspect credentials or Firebase config values, access RTDB or FCM, install SDKs, change manifests or rules, invoke Unity, edit files, or expose user IDs, tokens, paths, messages, and attachment payloads.
 
 ## Project Router Registration
 

@@ -105,8 +105,17 @@ await messaging.StartAsync(cancellationToken);
 현재 Cat Merge Cafe에서는 embedded package로 사용합니다. 수동 게시 후 다른 프로젝트에서는 다음 Git UPM 주소를 사용합니다.
 
 ```json
-"com.actionfit.inbox.firebase": "https://github.com/ActionFit-Editor/Inbox_Firebase.git#1.0.0"
+"com.actionfit.inbox.firebase": "https://github.com/ActionFitGames/Inbox_Firebase.git#1.0.2"
 ```
+
+## Agent Skills
+
+Custom Package Manager의 `Install or Refresh Agent Skills`를 실행하면 Codex와 Claude에 다음 read-only 진입점이 설치됩니다.
+
+- `inbox-firebase-help`: SDK assembly 격리, RTDB schema/path, 오류 변환과 cache invalidation 경계를 설명합니다.
+- `inbox-firebase-audit`: Firebase에 접속하지 않고 optional SDK assembly, 안전한 경로, retry 소유권과 invalidation-only 계약을 소스 기준으로 점검합니다.
+
+스킬은 Firebase credential·payload를 읽거나 RTDB/FCM에 접근하고 manifest, RTDB rules, 운영 데이터를 변경하지 않습니다.
 
 패키지 게시와 catalog 등록은 Custom Package Manager에서 수동으로 수행합니다.
 
