@@ -7,7 +7,7 @@ This file ships with the UPM package so an AI assistant can preserve the Firebas
 - Package ID: `com.actionfit.inbox.firebase`
 - Display name: ActionFit Inbox Firebase
 - Repository: `https://github.com/ActionFitGames/Inbox_Firebase.git`
-- Current package version at generation time: `1.0.2`
+- Current package version at generation time: `1.0.3`
 - Unity version: `6000.2`
 - Runtime dependencies: `com.actionfit.inbox` 1.0.0 and `com.actionfit.connectivity` 1.0.0
 - Optional SDK packages: validated `com.google.firebase.database` and `com.google.firebase.messaging` 12.10.1 packages
@@ -66,7 +66,7 @@ Malformed messages are skipped by default for operational compatibility. Strict 
 
 ## Timeout, Retry, And Error Rules
 
-- `FirebaseInboxBackendOptions.OperationTimeout` bounds each transport call. Timeout maps to transient `InboxBackendException`.
+- `FirebaseInboxBackendOptions.OperationTimeout` bounds each transport call and defaults to five seconds. Timeout maps to transient `InboxBackendException`.
 - Network and unavailable transport failures are transient. Permission, invalid data, and unknown failures are non-transient by default.
 - `InboxServiceOptions` owns retry count and delay. The Firebase adapter must not add a second hidden retry loop.
 - Cancellation propagates as `OperationCanceledException`.
@@ -76,7 +76,7 @@ Malformed messages are skipped by default for operational compatibility. Strict 
 
 `ActionFitConnectivityAdapter` maps only `ConnectivityState.Online` to the inbox core's minimal `IsOnline` contract and exposes the underlying `WaitForOnlineAsync` for explicit composition. It does not start monitoring or hidden probes.
 
-`FirebaseInboxInvalidationAdapter` matches a configured data key/value and emits `CacheInvalidationRequested`. `Bind(IInboxService)` translates that event to `InvalidateCache()` only. It must not automatically refresh, mutate UI, or claim rewards.
+`FirebaseInboxInvalidationAdapter` matches a configured data key/value — the default signal is topic `postbox_invalidate` with data `invalidate=postbox` — and emits `CacheInvalidationRequested`. `Bind(IInboxService)` translates that event to `InvalidateCache()` only. It must not automatically refresh, mutate UI, or claim rewards.
 
 `FirebaseMessagingInboxInvalidationSource` owns only topic subscription and message-data forwarding. It must not log registration tokens or payloads. Notification permission and foreground/background UX remain consuming-project responsibilities.
 

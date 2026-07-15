@@ -105,7 +105,7 @@ await messaging.StartAsync(cancellationToken);
 현재 Cat Merge Cafe에서는 embedded package로 사용합니다. 수동 게시 후 다른 프로젝트에서는 다음 Git UPM 주소를 사용합니다.
 
 ```json
-"com.actionfit.inbox.firebase": "https://github.com/ActionFitGames/Inbox_Firebase.git#1.0.2"
+"com.actionfit.inbox.firebase": "https://github.com/ActionFitGames/Inbox_Firebase.git#1.0.3"
 ```
 
 ## Agent Skills
