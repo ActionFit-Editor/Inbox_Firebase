@@ -21,9 +21,10 @@ MonoBehaviour:
   _description: "Firebase RTDB \uC6B0\uD3B8\uD568 \uC870\uD68C\xB7\uC218\uB839 \uD655\uC778\uACFC
     FCM \uCE90\uC2DC \uBB34\uD6A8\uD654\uB97C \uBC94\uC6A9 Inbox \uACC4\uC57D\uC5D0
     \uC5F0\uACB0\uD558\uB294 SDK \uACA9\uB9AC \uC5B4\uB311\uD130 \uD328\uD0A4\uC9C0\uC785\uB2C8\uB2E4."
-  _releaseNote: "- `OperationTimeout` 5\uCD08 \uAE30\uBCF8\uAC12\uACFC \uAE30\uBCF8
-    FCM invalidation \uC2E0\uD638(topic `postbox_invalidate`, data `invalidate=postbox`)\uB97C
-    AI_GUIDE\uC5D0 \uBA85\uBB38\uD654\uD588\uC2B5\uB2C8\uB2E4.\n- \uB7F0\uD0C0\uC784
-    \uB3D9\uC791 \uBCC0\uACBD \uC5C6\uC74C: \uBB38\uC11C\uC640 \uAC00\uC774\uB4DC
-    \uC815\uB82C\uB9CC \uD3EC\uD568\uD569\uB2C8\uB2E4."
+  _releaseNote: "- \uB0B4\uBD80 \uC758\uC874\uC131\uC744 `com.actionfit.inbox@1.0.2`\uC640
+    `com.actionfit.connectivity@1.0.3`\uC73C\uB85C \uAC31\uC2E0\uD588\uC2B5\uB2C8\uB2E4.\n-
+    README \uC124\uCE58 \uD0DC\uADF8\uC640 `AI_GUIDE.md`\uC758 runtime dependency\uB97C
+    `1.0.4` \uB9B4\uB9AC\uC2A4 \uD6C4\uBCF4\uC5D0 \uB9DE\uCDC4\uC2B5\uB2C8\uB2E4.\n-
+    RTDB schema \uBCC0\uD658, FCM cache invalidation, retry \uC18C\uC720\uAD8C\uACFC
+    privacy \uACBD\uACC4\uB294 \uBCC0\uACBD\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4."
   _dependenciesOverride: 
