@@ -6,8 +6,8 @@ This file ships with the UPM package so an AI assistant can preserve the Firebas
 
 - Package ID: `com.actionfit.inbox.firebase`
 - Display name: ActionFit Inbox Firebase
-- Repository: `https://github.com/ActionFitGames/Inbox_Firebase.git`
-- Current package version at generation time: `1.0.4`
+- Repository: `https://github.com/ActionFit-Editor/Inbox_Firebase.git`
+- Current package version at generation time: `1.0.5`
 - Unity version: `6000.2`
 - Runtime dependencies: `com.actionfit.inbox` 1.0.2 and `com.actionfit.connectivity` 1.0.3
 - Optional SDK packages: validated `com.google.firebase.database` and `com.google.firebase.messaging` 12.10.1 packages
