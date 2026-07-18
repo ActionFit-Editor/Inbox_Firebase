@@ -1,6 +1,6 @@
 {
   "name": "com.actionfit.inbox.firebase",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "displayName": "ActionFit Inbox Firebase",
   "description": "Firebase RTDB and Messaging adapters for ActionFit Inbox with legacy rewards schema compatibility and privacy-safe failure mapping.",
   "unity": "6000.2",
@@ -8,8 +8,8 @@
     "name": "ActionFit"
   },
   "dependencies": {
-    "com.actionfit.inbox": "1.0.3",
-    "com.actionfit.connectivity": "1.0.4"
+    "com.actionfit.inbox": "1.0.4",
+    "com.actionfit.connectivity": "1.0.5"
   },
   "samples": [
     {

@@ -105,10 +105,10 @@ await messaging.StartAsync(cancellationToken);
 현재 Cat Merge Cafe에서는 embedded package로 사용합니다. 수동 게시 후 다른 프로젝트에서는 다음 Git UPM 주소를 사용합니다.
 
 ```json
-"com.actionfit.inbox.firebase": "https://github.com/ActionFit-Editor/Inbox_Firebase.git#1.0.6"
+"com.actionfit.inbox.firebase": "https://github.com/ActionFit-Editor/Inbox_Firebase.git#1.0.8"
 ```
 
-## Agent Skills
+## Agent Skill 안내
 
 Custom Package Manager의 `Install or Refresh Agent Skills`를 실행하면 Codex와 Claude에 다음 read-only 진입점이 설치됩니다.
 
@@ -119,7 +119,7 @@ Custom Package Manager의 `Install or Refresh Agent Skills`를 실행하면 Code
 
 패키지 게시와 catalog 등록은 Custom Package Manager에서 수동으로 수행합니다.
 
-## Unity Menu
+## Unity 메뉴
 
 - README: `Tools > Package > ActionFit Inbox Firebase > README`
 
